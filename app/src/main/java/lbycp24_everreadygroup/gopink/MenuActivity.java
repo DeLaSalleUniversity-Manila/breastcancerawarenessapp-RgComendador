@@ -41,16 +41,16 @@ public class MenuActivity extends Activity {
                         Intent goToNews = new Intent(MenuActivity.this, News.class);
                         startActivity(goToNews);
                         break;
-                    /*
+
                     case 2:
                         Intent goToTestimonies = new Intent(MenuActivity.this, Testimonies.class);
                         startActivity(goToTestimonies);
                         break;
 
                     case 3:
-                        Intent goHToHelp = new Intent(MenuActivity.this, Help.class);
+                        Intent goToHelp = new Intent(MenuActivity.this, Help.class);
                         startActivity(goToHelp);
-                        break;*/
+                        break;
                 }
             }
         });

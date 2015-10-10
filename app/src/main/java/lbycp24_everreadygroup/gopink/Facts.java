@@ -1,7 +1,14 @@
 package lbycp24_everreadygroup.gopink;
 
-/**
- * Created by comen_000 on 10/6/2015.
- */
-public class Facts {
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Facts extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.facts);
+    }
 }

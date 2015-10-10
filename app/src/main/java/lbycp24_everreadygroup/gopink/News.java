@@ -8,5 +8,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 
-public class News {
+public class News extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.news);
+    }
 }
