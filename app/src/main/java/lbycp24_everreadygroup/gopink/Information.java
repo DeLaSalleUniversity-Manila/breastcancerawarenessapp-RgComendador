@@ -2,6 +2,7 @@ package lbycp24_everreadygroup.gopink;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,8 +11,9 @@ import android.widget.*;
 
 public class Information extends Activity{
 String[] main_menu = {
-        "Facts",
-        "Treatments"
+        "What is Breast Cancer?",
+        "Treatments",
+        "Facts"
 };
 
     @Override
@@ -27,17 +29,27 @@ String[] main_menu = {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
                 switch (position){
+
                     case 0:
+                        Intent goToBCancer = new Intent(Information.this, BCancer.class);
+                        startActivity(goToBCancer);
+                        break;
+
+                    case 1:/*
+                        Intent goToTreatments = new Intent(Information.this, Treatments.class);
+                        startActivity(goToTreatments);
+                        break;*/
+
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse("http://www.breastcancer.org/treatment"));
+                        startActivity(i);
+                        break;
+
+                    case 2:
                         Intent goToFacts = new Intent(Information.this, Facts.class);
                         startActivity(goToFacts);
                         break;
-
-                    case 1:
-                        Intent goToTreatments = new Intent(Information.this, Treatments.class);
-                        startActivity(goToTreatments);
-                        break;
-
-                    //case 2: TBA
+                    //case 3: TBA
                 }
             }
         });

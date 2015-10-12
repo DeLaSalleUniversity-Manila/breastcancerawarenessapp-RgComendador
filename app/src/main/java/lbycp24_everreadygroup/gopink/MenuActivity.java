@@ -2,6 +2,7 @@ package lbycp24_everreadygroup.gopink;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -37,9 +38,16 @@ public class MenuActivity extends Activity {
                         startActivity(goToInformation);
                         break;
 
-                    case 1:
+                    case 1:/*
                         Intent goToNews = new Intent(MenuActivity.this, News.class);
                         startActivity(goToNews);
+                        break;*/
+
+                        String url = "yahoo.com";
+
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse("http://www.icanservefoundation.org/?page_id=35"));
+                        startActivity(i);
                         break;
 
                     case 2:
