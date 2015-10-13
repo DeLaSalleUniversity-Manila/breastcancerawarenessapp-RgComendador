@@ -13,7 +13,7 @@ public class Testimonies extends Activity {
 
     String[] main_menu = {
             "Early Intervention",
-            "Living Breast",
+            "Living with Breast Cancer",
             "Metastasis",
             "Prevention",
             "Survivors"

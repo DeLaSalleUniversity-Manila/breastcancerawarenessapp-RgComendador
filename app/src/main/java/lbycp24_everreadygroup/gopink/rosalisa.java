@@ -14,6 +14,7 @@ public class rosalisa extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rosalisa);
+
         TextView textView = (TextView) findViewById(R.id.rosalisa);
         textView.setMovementMethod(new ScrollingMovementMethod());
     }

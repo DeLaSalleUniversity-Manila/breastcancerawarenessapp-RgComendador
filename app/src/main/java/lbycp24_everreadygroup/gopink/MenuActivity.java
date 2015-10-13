@@ -14,8 +14,8 @@ public class MenuActivity extends Activity {
 
     String[] main_menu = {
             "Information",
-            "News",
             "Testimonies",
+            "News",
             "Help"
     };
 
@@ -38,21 +38,19 @@ public class MenuActivity extends Activity {
                         startActivity(goToInformation);
                         break;
 
-                    case 1:/*
+                    case 1:
+                        Intent goToTestimonies = new Intent(MenuActivity.this, Testimonies.class);
+                        startActivity(goToTestimonies);
+                        break;
+
+                    case 2:/*
                         Intent goToNews = new Intent(MenuActivity.this, News.class);
                         startActivity(goToNews);
                         break;*/
 
-                        String url = "yahoo.com";
-
                         Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse("http://www.icanservefoundation.org/?page_id=35"));
                         startActivity(i);
-                        break;
-
-                    case 2:
-                        Intent goToTestimonies = new Intent(MenuActivity.this, Testimonies.class);
-                        startActivity(goToTestimonies);
                         break;
 
                     case 3:
