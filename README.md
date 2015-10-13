@@ -2,8 +2,8 @@
 
 Compiled version of the app
 
-Splash Screen - Laureen Garcia
-Menu - Glenn Comendador
-Testimonies - Zion Chan
+Laureen Garcia
+Glenn Comendador
+Zion Chan
 
-App not yet final
+Version 1.0
