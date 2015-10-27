@@ -3,8 +3,7 @@ package lbycp24_everreadygroup.gopink;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.text.method.ScrollingMovementMethod;
-import android.widget.TextView;
+
 
 public class BCancer extends Activity {
 
@@ -12,8 +11,5 @@ public class BCancer extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bcancer);
-
-        TextView textview= (TextView) findViewById(R.id.textView);
-        textview.setMovementMethod(new ScrollingMovementMethod());
     }
 }

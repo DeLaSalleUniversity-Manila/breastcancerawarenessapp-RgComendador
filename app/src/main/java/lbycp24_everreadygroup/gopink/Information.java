@@ -12,6 +12,8 @@ import android.widget.*;
 public class Information extends Activity{
 String[] main_menu = {
         "What is Breast Cancer?",
+        "Causes",
+        "Symptoms",
         "Treatments",
         "Facts"
 };
@@ -35,7 +37,17 @@ String[] main_menu = {
                         startActivity(goToBCancer);
                         break;
 
-                    case 1:/*
+                    case 1:
+                        Intent goToCauses = new Intent(Information.this,Causes.class);
+                        startActivity(goToCauses);
+                        break;
+
+                    case 2:
+                        Intent goToSymptoms = new Intent(Information.this,Symptoms.class);
+                        startActivity(goToSymptoms);
+                        break;
+
+                    case 3:/*
                         Intent goToTreatments = new Intent(Information.this, Treatments.class);
                         startActivity(goToTreatments);
                         break;*/
@@ -45,11 +57,12 @@ String[] main_menu = {
                         startActivity(i);
                         break;
 
-                    case 2:
+                    case 4:
                         Intent goToFacts = new Intent(Information.this, Facts.class);
                         startActivity(goToFacts);
                         break;
-                    //case 3: TBA
+
+
                 }
             }
         });

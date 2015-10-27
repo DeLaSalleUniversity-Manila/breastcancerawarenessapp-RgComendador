@@ -28,16 +28,18 @@
 <b>Fact # 10</b>\t\tThe Philippines has the highest incidence rate of breast cancer in Asia and registered the highest increase of 589 percent among 187 countries over a 30 year period from 1980 to 2010.</string>
 
 
-    <string name="bc"><font size = "20"><b>What is Breast Cancer?</b> </font>\n\n\t\tCancer starts when cells begin to grow out of control. Cells in nearly any part of the body can become cancer, and can spread to other areas of the body.\n\n\t\tBreast cancer is a malignant tumor that starts in the cells of the breast. A malignant tumor is a group of cancer cells that can grow into (invade) surrounding tissues or spread (metastasize) to distant areas of the body. The disease occurs almost entirely in women, but men can get it, too.
+    <string name="wbc"><font size = "20"><b>What is Breast Cancer?</b></font>\n\n\t\tCancer starts when cells begin to grow out of control. Cells in nearly any part of the body can become cancer, and can spread to other areas of the body.\n\n\t\tBreast cancer is a malignant tumor that starts in the cells of the breast. A malignant tumor is a group of cancer cells that can grow into (invade) surrounding tissues or spread (metastasize) to distant areas of the body. The disease occurs almost entirely in women, but men can get it, too.\n\n</string>
 
 
-    \n\n<font size = "20"><b>The Normal Breast</b></font>\n\nTo understand breast cancer, it helps to have some basic knowledge about the normal structure of the breasts, shown in the diagram below.\n\nThe female breast is made up mainly of lobules (milk-producing glands), ducts (tiny tubes that carry the milk from the lobules to the nipple), and stroma (fatty tissue and connective tissue surrounding the ducts and lobules, blood vessels, and lymphatic vessels).\n\nMost breast cancers begin in the cells that line the ducts (ductal cancers). Some begin in the cells that line the lobules (lobular cancers), while a small number start in other tissues.
+    <string name="nb">"<font size = "20"><b>The Normal Breast</b></font>\n\nTo understand breast cancer, it helps to have some basic knowledge about the normal structure of the breasts, shown in the diagram below.\n\nThe female breast is made up mainly of lobules (milk-producing glands), ducts (tiny tubes that carry the milk from the lobules to the nipple), and stroma (fatty tissue and connective tissue surrounding the ducts and lobules, blood vessels, and lymphatic vessels).</string>
+    \n\nMost breast cancers begin in the cells that line the ducts (ductal cancers). Some begin in the cells that line the lobules (lobular cancers), while a small number start in other tissues.\n\n
 
 
-    \n\n<font size = "20"><b>The Lymphatic System of the Breast</b></font>\n\nThe lymph system is important to understand because it is one way breast cancers can spread. This system has several parts.\n\nLymph nodes are small, bean-shaped collections of immune system cells (cells that are important in fighting infections) that are connected by lymphatic vessels. Lymphatic vessels are like small veins, except that they carry a clear fluid called lymph (instead of blood) away from the breast. Lymph contains tissue fluid and waste products, as well as immune system cells. Breast cancer cells can enter lymphatic vessels and begin to grow in lymph nodes.\n\nMost lymphatic vessels in the breast connect to lymph nodes under the arm (axillary nodes). Some lymphatic vessels connect to lymph nodes inside the chest (internal mammary nodes) and either above or below the collarbone (supraclavicular or infraclavicular nodes).\n\nIf the cancer cells have spread to lymph nodes, there is a higher chance that the cells could have also gotten into the bloodstream and spread (metastasized) to other sites in the body. The more lymph nodes with breast cancer cells, the more likely it is that the cancer may be found in other organs as well. Because of this, finding cancer in one or more lymph nodes often affects the treatment plan. Still, not all women with cancer cells in their lymph nodes develop metastases, and some women can have no cancer cells in their lymph nodes and later develop metastases.
+    <string name="ls"><font size = "20"><b>The Lymphatic System of the Breast</b></font>\n\nThe lymph system is important to understand because it is one way breast cancers can spread. This system has several parts.\n\nLymph nodes are small, bean-shaped collections of immune system cells (cells that are important in fighting infections) that are connected by lymphatic vessels. Lymphatic vessels are like small veins, except that they carry a clear fluid called lymph (instead of blood) away from the breast. Lymph contains tissue fluid and waste products, as well as immune system cells. Breast cancer cells can enter lymphatic vessels and begin to grow in lymph nodes.\n\nMost lymphatic vessels in the breast connect to lymph nodes under the arm (axillary nodes). Some lymphatic vessels connect to lymph nodes inside the chest (internal mammary nodes) and either above or below the collarbone (supraclavicular or infraclavicular nodes).\n\n</string>
+    <string name="othertext">"If the cancer cells have spread to lymph nodes, there is a higher chance that the cells could have also gotten into the bloodstream and spread (metastasized) to other sites in the body. The more lymph nodes with breast cancer cells, the more likely it is that the cancer may be found in other organs as well. Because of this, finding cancer in one or more lymph nodes often affects the treatment plan. Still, not all women with cancer cells in their lymph nodes develop metastases, and some women can have no cancer cells in their lymph nodes and later develop metastases.\n\n
 
 
-    \n\n<font size = "20"><b>Benign Breast Lumps</b></font>\n\nMost breast lumps are not cancerous (benign). Still, some may need to be biopsied (sampled and viewed under a microscope) to prove they are not cancer.
+   <font size = "20"><b>Benign Breast Lumps</b></font>\n\nMost breast lumps are not cancerous (benign). Still, some may need to be biopsied (sampled and viewed under a microscope) to prove they are not cancer.
 
 
     \n\n<font size = "20"><b>Fibrosis and Cysts</b></font>\n\nMost lumps turn out to be caused by fibrosis and/or cysts, benign changes in the breast tissue that happen in many women at some time in their lives. (This is sometimes called fibrocystic changes and used to be called fibrocystic disease.) Fibrosis is the formation of scar-like (fibrous) tissue, and cysts are fluid-filled sacs. These conditions are most often diagnosed by a doctor based on symptoms, such as breast lumps, swelling, and tenderness or pain. These symptoms tend to be worse just before a womans menstrual period is about to begin. Her breasts may feel lumpy and, sometimes, she may notice a clear or slightly cloudy nipple discharge.
@@ -177,4 +179,66 @@ In 1997, Ms. Bibiana Gutierrez was 47 years old when she got a cancer on her rig
     <b>Features:</b>\n\tInfo: Facts, Treatments\n\tNews: Articles about Breast Cancer\n\tTestimonies: Compilation of stories of people with\n\tBreast Cancer Experience\n\n
     <b>Support Information:</b>\n\tGoPink! is developed by ZLG.\n\tzion_chan@dlsu.edu.ph\n\tlaureen_garcia@dlsu.edu.ph\n\tglenn_comendador@dlsu.edu.ph
     \n\n<b>Sources:</b>\n1. http://www.breastcancer.org/treatment \n2. http://www.icanservefoundation.org \n3. http://www.pbcn.org \n4. https://rojosonmedicalclinic.wordpress.com</string>
+
+    <string name="symptoms">A symptom is only felt by the patient, and is described to the doctor or nurse, such as a headache or pain. A sign is something the patient and others can detect, for example, a rash or swelling.
+
+The first symptoms of breast cancer are usually an area of thickened tissue in the womans breast, or a lump. The majority of lumps are not cancerous; however, women should get them checked by a health care professional.
+
+\n\n<b>Women who detect any of the following signs or symptoms should tell their doctor (NHS, UK):</b>
+
+\n\n * A lump in a breast
+\n * A pain in the armpits or breast that does not seem to be related to the womans menstrual period
+\n * Pitting or redness of the skin of the breast; like the skin of an orange
+\n * A rash around (or on) one of the nipples
+\n * A swelling (lump) in one of the armpits
+\n * An area of thickened tissue in a breast
+\n * One of the nipples has a discharge; sometimes it may contain blood
+\n * The nipple changes in appearance; it may become sunken or inverted
+\n * The size or the shape of the breast changes
+\n * The nipple-skin or breast-skin may have started to peel, scale or flake.\n</string>
+
+    <string name="causes">Experts are not definitively sure what causes breast cancer. It is hard to say why one person develops the disease while another does not. We know that some risk factors can impact on a womans likelihood of developing breast cancer. These are:
+
+        \n\n<b>Getting older</b> - the older a woman gets, the higher is her risk of developing breast cancer; age is a risk factor. Over 80 percent of all female breast cancers occur among women aged 50+ years (after the menopause).
+
+        \n\n<b>Genetics</b> - women who have a close relative who has/had breast or ovarian cancer are more likely to develop breast cancer. If two close family members develop the disease, it does not necessarily mean they shared the genes that make them more vulnerable, because breast cancer is a relatively common cancer.
+
+        \nThe majority of breast cancers are not hereditary.
+
+        \nWomen who carry the BRCA1 and BRCA2 genes have a considerably higher risk of developing breast and/or ovarian cancer. These genes can be inherited. TP53, another gene, is also linked to greater breast cancer risk.
+
+        \n\n<b>A history of breast cancer</b> - women who have had breast cancer, even non-invasive cancer, are more likely to develop the disease again, compared to women who have no history of the disease.
+
+        \n\n<b>Having had certain types of breast lumps</b> - women who have had some types of benign (non-cancerous) breast lumps are more likely to develop cancer later on. Examples include atypical ductal hyperplasia or lobular carcinoma in situ.
+
+        \n\n<b>Dense breast tissue</b> - women with more dense breast tissue have a greater chance of developing breast cancer.
+
+        \n\n<b>Estrogen exposure</b> - women who started having periods earlier or entered menopause later than usual have a higher risk of developing breast cancer. This is because their bodies have been exposed to estrogen for longer. Estrogen exposure begins when periods start, and drops dramatically during the menopause.
+
+        \n\n<b>Obesity</b> - post-menopausal obese and overweight women may have a higher risk of developing breast cancer. Experts say that there are higher levels of estrogen in obese menopausal women, which may be the cause of the higher risk.
+
+        \n\n<b>Height</b> - taller-than-average women have a slightly greater likelihood of developing breast cancer than shorter-than-average women. Experts are not sure why.
+
+        \n\n<b>Alcohol consumption</b> - the more alcohol a woman regularly drinks, the higher her risk of developing breast cancer is. The Mayo Clinic says that if a woman wants to drink, she should not exceed one alcoholic beverage per day.
+
+        \n\n<b>Radiation exposure</b> - undergoing X-rays and CT scans may raise a womans risk of developing breast cancer slightly. Scientists at the Memorial Sloan-Kettering Cancer Center found that women who had been treated with radiation to the chest for a childhood cancer have a higher risk of developing breast cancer.
+
+        \n\n<b>HRT (hormone replacement therapy)</b> - both forms, combined and estrogen-only HRT therapies may increase a womans risk of developing breast cancer slightly. Combined HRT causes a higher risk.
+
+        \n\n<b>Certain jobs</b> - French researchers found that women who worked at night prior to a first pregnancy had a higher risk of eventually developing breast cancer.
+
+        \nCanadian researchers found that certain jobs, especially those that bring the human body into contact with possible carcinogens and endocrine disruptors are linked to a higher risk of developing breast cancer. Examples include bar/gambling, automotive plastics manufacturing, metal-working, food canning and agriculture. They reported their findings in the November 2012 issue of Environmental Health.
+
+        \n\n<b>Cosmetic implants may undermine breast cancer survival</b> - women who have cosmetic breast implants and develop breast cancer may have a higher risk of dying prematurely form the disease compared to other females, researchers from Canada reported in the BMJ (British Medical Journal) (May 2013 issue).
+
+        \nThe team looked at twelve peer-reviewed articles on observational studies which had been carried out in Europe, the USA and Canada.
+
+        \nExperts had long-wondered whether cosmetic breast implants might make it harder to spot malignancy at an early stage, because they produce shadows on mammograms.
+
+        \nIn this latest study, the authors found that a woman with a cosmetic breast implant has a 25 percent higher risk of being diagnosed with breast cancer when the disease has already advanced, compared to those with no implants.
+
+        \nWomen with cosmetic breast implants who are diagnosed with breast cancer have a 38 percent higher risk of death from the disease, compared to other patients diagnosed with the same disease who have no implants, the researchers wrote.
+
+        \nAfter warning that there were some limitations in the twelve studies they looked at, the authors concluded "Further investigations are warranted into the long term effects of cosmetic breast implants on the detection and prognosis of breast cancer, adjusting for potential confounders."</string>
+
 </resources>
