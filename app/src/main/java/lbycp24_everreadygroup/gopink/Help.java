@@ -11,8 +11,5 @@ public class Help extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.help);
-
-        TextView textview3= (TextView) findViewById(R.id.textView3);
-        textview3.setMovementMethod(new ScrollingMovementMethod());
     }
 }
